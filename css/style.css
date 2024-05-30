@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+  font-family: Rethink Sans;
+}
+
+li::marker {
+  content: none;
+}
+
+.drop-shadow {
+  box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 60%);
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
