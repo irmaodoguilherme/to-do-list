@@ -1,6 +1,6 @@
-export const handleTodosDisplay = async (e, todosContainer) => {
+export const handleTodosDisplay = async e => {
   const { sanitize } = await import('./sanitize.js')
-  const todosContainer = document.querySelector('[data-js="todos-container]"')
+  const todosContainer = document.querySelector('[data-js="todos-container"]')
   const inputValue = sanitize(e.target.value.toLowerCase().trim())
   const todos = Array.from(todosContainer.children)
 
