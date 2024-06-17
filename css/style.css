@@ -22,3 +22,7 @@ li::marker {
   font-size: 1.3rem;
   cursor: pointer;
 }
+
+.mw-40r {
+  max-width: 40rem;
+}
