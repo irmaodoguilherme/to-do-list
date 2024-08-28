@@ -1,9 +1,7 @@
-export const handleTodosDisplay = async e => {
-  const { sanitize } = await import('./sanitize.js')
+export const handleTodosDisplay = async inputValue => {
   const todosContainer = document.querySelector('[data-js="todos-container"]')
-  const inputValue = sanitize(e.target.value.toLowerCase().trim())
   const todos = Array.from(todosContainer.children)
-
+  
   hideTodos(todos, inputValue)
   showTodos(todos, inputValue)
 }

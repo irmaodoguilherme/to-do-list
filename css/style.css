@@ -14,6 +14,10 @@ li::marker {
   content: none;
 }
 
+li:hover {
+  background-color: rgb(0 0 0 / 32%);
+}
+
 .drop-shadow {
   box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 60%);
 }
@@ -33,4 +37,8 @@ li::marker {
 
 .mw-39r {
   max-width: 39rem;
+}
+
+.mw-2-5r {
+  max-width: 2.5rem;
 }
