@@ -14,31 +14,36 @@ li::marker {
   content: none;
 }
 
-li:hover {
-  background-color: rgb(0 0 0 / 32%);
-}
-
-.drop-shadow {
-  box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 60%);
-}
-
 .bi {
   font-size: 1.3rem;
   cursor: pointer;
 }
 
-.mw-40r {
-  max-width: 40rem;
+li {
+  transition: background-color 0.1s;
 }
 
-.mw-19r {
-  max-width: 19rem;
+li:hover {
+  background-color: rgb(0 0 0 / 32%);
 }
 
-.mw-39r {
-  max-width: 39rem;
+.input {
+  transition:
+  border-color 0.2s,
+  background-color 0.2s,
+  color 0.2s;
 }
 
-.mw-2-5r {
-  max-width: 2.5rem;
+.input:hover {
+  border-color: rgb(255, 255, 255, 75%) !important;
+  background-color: rgb(255, 255, 255, 75%);
+  color: #000000;
+}
+
+.button-submit {
+  transition: box-shadow 0.1s;
+}
+
+.button-submit:hover {
+  box-shadow: 0px 0px 0.4rem #ffffff;
 }
