@@ -29,9 +29,9 @@ li:hover {
 
 .input {
   transition:
-  border-color 0.2s,
-  background-color 0.2s,
-  color 0.2s;
+    border-color 0.2s,
+    background-color 0.2s,
+    color 0.2s;
 }
 
 .input:hover {
@@ -46,4 +46,20 @@ li:hover {
 
 .button-submit:hover {
   box-shadow: 0px 0px 0.4rem #ffffff;
+}
+
+.maxw-40r {
+  max-width: 40rem;
+}
+
+.maxw-19r {
+  max-width: 19rem;
+}
+
+.maxw-2-5r {
+  max-width: 2.5r
+}
+
+.maxw-39r {
+  max-width: 39rem;
 }
