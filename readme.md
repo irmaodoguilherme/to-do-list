@@ -13,7 +13,7 @@ Você pode usá-la tanto para acompanhar o que precisa ser feito quanto para ver
 
 <h2 id="como-acessar">Como acessar</h2>
 
-Você pode acessá-la [aqui](https://to-do-list-gal.netlify.app/) ou clicando no link da seção 'about'
+Você pode acessá-la [aqui](https://to-do-list-gal.netlify.app/) ou através do link na seção 'About'.
 
 
 <h2 id="como-usá-la">Como usá-la</h2>
