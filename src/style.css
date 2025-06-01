@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.p-bg-dark {
+    background: #060e11;
+}
+
+.p-bg-light {
+    background: #EDEDE9;
+}
+
+.bg-transition {
+    transition: background .15s ease-in-out
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.max-w-fit {
+    max-width: fit-content;
+}
+
+.h-fit {
+    height: fit-content;
+}
+
+.h-2px {
+    height: 2px;
+}
+
+.inset-0 {
+    inset: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.c-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .2s ease-in-out;
+}
+
+.c-show {
+    max-height: 100px;
+    overflow: auto;
+    transition: max-height .2s ease-in-out;
+}
+
+.fade {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition:
+        opacity .15s ease-in-out,
+        transform .15s ease-in-out;
+}
+
+.show {
+    pointer-events: all;
+    opacity: 1;
+    transform: none;
+}
+
+.cur-grab {
+    cursor: grab;
+}
+
+.button {
+    transition: background .10s ease-in-out;
+}
+
+.button:hover {
+    background: #3c3c3c !important;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.li-hidden:hover {
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+@keyframes grow {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 368px) and (orientation: portrait) {
+    .mobile-li-content {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 436px) and (orientation: portrait) {
+    .mobile-form {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 493px) and (orientation: portrait) {
+    .mobile-visibility {
+        display: block !important;
+    }
+
+    .mobile-remove-button {
+        margin: 0 !important;
+        margin-right: auto !important;
+        margin-left: .5rem !important;
+    }
+
+    .mobile-icon-container {
+        width: 100% !important;
+    }
+
+    .mobile-li {
+        flex-direction: column !important;
+    }
+}
